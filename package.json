@@ -1,0 +1,12 @@
+{
+  "name": "auth",
+  "private": true,
+  "author": "Sondre Nilsen <nilsen.sondre@gmail.com>",
+  "devDependencies": {
+    "@echo-karriere/clubhouse-lint": "0.3.0",
+    "husky": "6.0.0"
+  },
+  "scripts": {
+    "postinstall": "husky install"
+  }
+}
