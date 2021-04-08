@@ -145,7 +145,7 @@
                         <max-pool-size>20</max-pool-size>
                     </pool>
                     <security>
-                        <user-name>${env.DATABASE_USER}</user-name>
+                        <user-name>${env.DATABASE_USER}@${env.DATABASE_PREFIX}</user-name>
                         <password>${env.DATABASE_PASSWORD}</password>
                     </security>
                 </datasource>
