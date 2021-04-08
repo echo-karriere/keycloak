@@ -573,7 +573,7 @@
                 <default-provider>default</default-provider>
                 <provider name="default" enabled="true">
                     <properties>
-                        <property name="frontendUrl" value="https://auth.echokarriere.no"/>
+                        <property name="frontendUrl" value="${keycloak.frontendUrl:}"/>
                         <property name="forceBackendUrlToFrontendUrl" value="false"/>
                     </properties>
                 </provider>
